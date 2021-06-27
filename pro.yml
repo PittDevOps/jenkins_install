@@ -1,7 +1,5 @@
 ---
-- hosts: jenkins
+- hosts: all
   roles:
     - jenkins
   tags: jenkins
-
-
