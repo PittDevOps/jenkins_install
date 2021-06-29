@@ -1,0 +1,9 @@
+---
+  host: all
+  become: true
+  remote_user: ansible
+  - name: rcreate  dir
+    file:
+      path:/src/www
+      state: directory
+  
