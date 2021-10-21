@@ -3,10 +3,10 @@
 
 java:
   VERSION: "java-1.8.0-openjdk"
-  ALTERNATIVES: "/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-1.el7_9.x86_64/jre/bin/java"
+  ALTERNATIVES: "/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.302.b08-0.el7_9.aarch64.rpm/jre/bin/java"
 
 
 jenkins:
-  repo_URL: "https://pkg.jenkins.io/redhat/jenkins.repo"
+  repo_URL: "https://pkg.jenkins.io/redhat-stable/jenkins.repo"
   gpg_key: "https://pkg.jenkins.io/redhat/jenkins.io.key"
   JAVA_OPTIONS: "-Djava.awt.headless=true -Djenkins.install.runSetupWizard=false"
