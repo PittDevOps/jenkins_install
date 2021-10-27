@@ -8,6 +8,6 @@ java:
 
 
 jenkins:
-  repo_URL: "https://pkg.jenkins.io/redhat-stable/jenkins.repo || http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo"
-  gpg_key: "https://pkg.jenkins.io/redhat/jenkins.io.key"
+  repo_URL: "https://pkg.jenkins.io/redhat-stable/jenkins.repo"
+  gpg_key: "https://pkg.jenkins.io/redhat-stable/jenkins.io.key"
   JAVA_OPTIONS: "-Djava.awt.headless=true -Djenkins.install.runSetupWizard=false"
