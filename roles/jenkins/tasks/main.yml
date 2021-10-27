@@ -1,5 +1,11 @@
 ---
 
+- name: Install Packeges
+  yum:
+    name: "{{prerequesties}}"
+    state: present
+  become: true
+
 - name: Install Java 8 using YUM.
   yum:
     name: "{{java.VERSION}}"
