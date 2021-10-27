@@ -2,7 +2,7 @@
 
 - name: Install Packeges
   yum:
-    name: "{{prerequesties}}"
+    name: "{{java.prerequesties}}"
     state: present
   become: true
 
